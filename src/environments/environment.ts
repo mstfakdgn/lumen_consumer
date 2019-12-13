@@ -6,6 +6,11 @@ export const environment = {
   production: false
 };
 
+export const CLIENT_ID = 4;
+export const CLIENT_SECRET = '6zP8DZcGBugMh5NkLMXFpbaqVwUW4aXNW7H36cRG';
+export const SCOPE = '*';
+export const GRANT_TYPE = 'client_credentials';
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
